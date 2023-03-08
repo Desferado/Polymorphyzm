@@ -1,27 +1,4 @@
-public class Transport {
-    private String modelName;
-    private int wheelsCount;
+public interface Transport {
+    void updateTyre();
 
-    public String getModelName() {
-        return modelName;
-    }
-
-    public void setModelName(String modelName) {
-        this.modelName = modelName;
-    }
-
-    public int getWheelsCount() {
-        return wheelsCount;
-    }
-
-    public void setWheelsCount(int wheelsCount) {
-        this.wheelsCount = wheelsCount;
-    }
-
-    public void updateTyre() {};
-
-    public void checkEngine() {};
-
-    public void checkTrailer() {};
 }
-

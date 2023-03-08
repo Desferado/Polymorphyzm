@@ -24,10 +24,10 @@ public class Main {
         getServiceStation(station, truck, car, bicycle);
     }
 
-    private static void getServiceStation(checkTransport checkTransport,Truck truck, Car car, Bicycle bicycle) {
-        checkTransport.check(car);
-        checkTransport.check(truck);
-        checkTransport.check(bicycle);
+    private static void getServiceStation(ServiceStation station,Truck truck, Car car, Bicycle bicycle) {
+        ServiceStation.check(car);
+        ServiceStation.check(truck);
+        ServiceStation.check(bicycle);
     }
 
 

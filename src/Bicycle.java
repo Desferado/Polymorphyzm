@@ -1,6 +1,3 @@
-public class Bicycle extends Transport {
+public class Bicycle extends WheelTransport {
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-}
+ }
